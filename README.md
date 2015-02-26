@@ -21,8 +21,9 @@ This course will cover:
 ## Textbooks
 
 1. Advanced Analytics with Spark
-2. The Lion Way: Machine Learning plus Intelligent Optimization
-3. Others...
+2. Machine Learning with Spark
+3. The Lion Way: Machine Learning plus Intelligent Optimization
+4. Others...
 
 ## week 1 Introduction
 
@@ -105,3 +106,18 @@ This course will cover:
 2. Rethink of practical machine learning
 3. How to build a great machine learning system?
 4. Compare with Mahout / Oryx2 / VM / ...
+
+## Survey of Advanced Analytics with Spark
+
+| Chapter | Topic | Algorithms | Dataset | Source |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 2 | Record Linkage | Entity resolution, record dedup, merge-and-purge, list washing | Some business data such as TCPDS | UCI ML repo |
+| 3 | Recommending | ALS | Who plays what or who rates what | Audioscrobbler |
+| 4 | Predicting Forest Cover | Decision Tree | The type of forest covering parcels of land in Colorado | UCI ML repo |
+| 5 | Anomaly detection in network traffic | K-means | Network intrusion data | KDD Cup 1999 Dataset |
+| 6 | Understanding wikipedia | Latent Semantic Analysis, SVD, TF-IDF, etc | wikipedia texts | wikipedia |
+| 7 | Analyzing Co-occurrence Networks | Massive graph algorithms in GraphX | MEDLINE citation index | US National Library of Medicine |
+| 8 | Geo and Temporal data analysis | Building sessions | New York Taxicab Data | New York City Taxi and Limousine Commission |
+| 9 | Estimating Finacial Risk | Monte Carlo Simulation | Stock Data | Yahoo! |
+| 10 | Analyzing Genomic Data | Massive genome analysis algorithms | Genome data | NCBI |
+| 11 | Analyzing Neuroimaging Data | Thunder | Images of zebrafish brains | Thunder repository |
