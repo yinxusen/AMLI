@@ -125,4 +125,5 @@ This course will cover:
 ## Structure of directories
 
 /src/chapterx --> The code snippets of each chapter
+
 /src/chapterx/{java, python, scala} --> Code snippets written with Mahout, Scikit-learn, and Spark
