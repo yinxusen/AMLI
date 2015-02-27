@@ -127,3 +127,60 @@ This course will cover:
 /src/chapterx --> The code snippets of each chapter
 
 /src/chapterx/{java, python, scala} --> Code snippets written with Mahout, Scikit-learn, and Spark
+
+## Spark VS Scikit-learn
+
+### Algorithms
+
+| Type | Algorithm | Scikit-learn | Spark |
+|:-----------:|:----------:|:----------:|:----------:|
+|Classification| Logistic Regression | YES | YES
+|Classification| Perceptron | YES |
+|Classification| Passive Aggressive Algorithms | YES
+|Classification| SVM | YES | YES
+|Classification| Naive Bayes | YES | YES
+|Classification| Decision Tree | YES | YES
+|Classification| Ensemble methods | YES | YES
+|Classification| Label Propogation | YES | YES (in GraphX)
+|Classification| LDA and QDA | YES |
+|Regression| Ordinary Least Square | YES | YES
+|Regression| Ridge Regression | YES | YES
+|Regression| LASSO | YES | YES
+|Regression| Elastic Net | YES
+|Regression| Multi-task LASSO | YES 
+|Regression| Least Angle Regression | YES
+|Regression| LARS LASSO | YES
+|Regression| Orthogonal Matching Pursuit | YES
+|Regression| Bayesian Regression | YES
+|Regression| Polynomial Regression | YES
+|Regression|  Nearest Neighbor | YES | YES
+|Regression| Gaussian Process | YES
+|Regression| Isotonic Regression | YES
+|Clustering| K-means | YES | YES
+|Clustering| Affinity Propagation | YES
+|Clustering| Mean shift | YES
+|Clustering| Spectral Clustering | YES
+|Clustering| Ward | YES
+|Clustering| Agglomerative clustering | YES
+|Clustering| DBSCAN | YES
+|Clustering| Gaussian Mixtures | YES
+|Dimension Reduction| PCA | YES | YES
+|Dimension Reduction| SVD / LSA | YES | YES
+|Dimension Reduction| Dictionary Learning | YES
+|Dimension Reduction| Factor Analysis | YES
+|Dimension Reduction| ICA | YES
+|Dimension Reduction| NMF | YES
+|Model Selection| Cross Validation | YES | YES
+|Model Selection| Grid Search | YES
+|Model Selection| Pipeline | YES | YES
+|Model Selection| Feature Union | YES | YES
+|Model Selection| Model Evaluation | YES | YES
+|Model Selection| Model Presistence | YES
+|Model Selection| Validation Curves | YES 
+|Preprocessing| Standardization | YES | YES
+|Preprocessing| Encoding categorical features | YES | YES (dependency)
+|Preprocessing| Binarization | YES
+|Preprocessing| Normalization | YES | YES
+|Preprocessing| Label preprocessing | YES
+|Preprocessing| Imputation of missing values | YES
+|Preprocessing| Unsupervised data reduction | YES
