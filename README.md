@@ -121,3 +121,8 @@ This course will cover:
 | 9 | Estimating Finacial Risk | Monte Carlo Simulation | Stock Data | Yahoo! |
 | 10 | Analyzing Genomic Data | Massive genome analysis algorithms | Genome data | NCBI |
 | 11 | Analyzing Neuroimaging Data | Thunder | Images of zebrafish brains | Thunder repository |
+
+## Structure of directories
+
+/src/chapterx --> The code snippets of each chapter
+/src/chapterx/{java, python, scala} --> Code snippets written with Mahout, Scikit-learn, and Spark
