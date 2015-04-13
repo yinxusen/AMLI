@@ -1,3 +1,5 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 # week 2 lecture note
 
 第二周主要介绍广义线性模型（Generalized Linear Model）。由于GLM在MLlib中实现比较简单，因此本周会讲大部分时间花在GLM的理论推导上。这会与下周的课有比较明显的区别。周三的课会偏重MLlib中ALS的实现部分。
