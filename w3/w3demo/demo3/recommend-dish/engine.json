@@ -1,0 +1,37 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "com.amli.w3.recommend.RecommendationEngine",
+  "datasource": {
+    "params": [
+      {
+        "sources": ["jdbc:mysql://localhost:3306/jts", "jdbc:mysql://localhost:3306/qyf"],
+        "users": ["root", "root"],
+        "passwords": ["root", "root"]
+      },
+      {
+        "sources": ["jdbc:mysql://localhost:3306/hbo"],
+        "users": ["root"],
+        "passwords": ["root"]
+      }
+    ]
+  },
+  "algorithms": [
+    {
+      "name": "itemtoitem",
+      "params": {
+        "params": [
+          {
+            "k": 20,
+            "modelFile": "./model/ItemToItem_jts_20141031"
+          },
+          {
+            "k": 10,
+            "modelFile": "./model/ItemToItem_hbo_20141031"
+          }
+        ]
+      }
+      
+    }
+  ]
+}
